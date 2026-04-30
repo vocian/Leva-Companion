@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Per-user runtime config (machine IP saved by the Connection panel)
+proxy-config.json
+
+# Logs / session captures
+*.log
+*.jsonl
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Build artefacts (none today, future-proofing)
+dist/
+build/
+.cache/
