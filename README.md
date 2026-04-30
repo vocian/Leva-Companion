@@ -62,4 +62,5 @@ The proxy is intentionally dumb: it forwards MC commands, parses the machine's r
 
 ## License
 
-MIT
+All rights reserved. This software is not licensed for redistribution
+or modification. Contact the author for inquiries.

@@ -18,7 +18,36 @@ Thumbs.db
 .idea/
 *.swp
 
-# Build artefacts (none today, future-proofing)
-dist/
+# Flutter
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
 build/
+*.iml
+
+# Android
+android/.gradle/
+android/local.properties
+android/captures/
+android/gradlew
+android/gradlew.bat
+android/gradle/wrapper/gradle-wrapper.jar
+*.jks
+*.keystore
+key.properties
+
+# iOS (future)
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/flutter_export_environment.sh
+**/DerivedData/
+
+# Misc
 .cache/
+dist/
+*.g.dart
+
+# Local agent / editor scaffolding (don't commit)
+.claude/
+leva-control-source.html
